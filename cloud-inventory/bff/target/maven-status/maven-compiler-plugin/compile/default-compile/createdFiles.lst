@@ -1,0 +1,10 @@
+com\example\bff\controller\BffController.class
+com\example\bff\model\Product.class
+com\example\bff\graphql\ProductGraphQLController.class
+com\example\bff\graphql\WarehouseGraphQLController.class
+com\example\bff\controller\BffController$2.class
+com\example\bff\BffApplication.class
+com\example\bff\graphql\ProductGraphQLController$1.class
+com\example\bff\graphql\WarehouseGraphQLController$1.class
+com\example\bff\model\Warehouse.class
+com\example\bff\controller\BffController$1.class

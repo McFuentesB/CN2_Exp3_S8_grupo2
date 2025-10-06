@@ -1,0 +1,24 @@
+type Product {
+  id: String
+  name: String
+  price: Float
+  stock: Int
+}
+
+type Warehouse {
+  id: String
+  name: String
+  location: String
+}
+
+type Query {
+  getProductById(id: String!): Product
+  getAllProducts: [Product]
+  getWarehouseById(id: String!): Warehouse
+  getAllWarehouses: [Warehouse]
+}
+
+type Mutation {
+  createProduct(id: String!, name: String!, price: Float!, stock: Int!): Product
+  createWarehouse(id: String!, name: String!, location: String!): Warehouse
+}
