@@ -1,0 +1,16 @@
+{
+  "scriptFile" : "../cloud-inventory-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.product.ProductFunction.updateProduct",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "route" : "products/{id}",
+    "methods" : [ "PUT" ],
+    "authLevel" : "FUNCTION"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}

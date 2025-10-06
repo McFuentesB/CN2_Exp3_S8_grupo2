@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../cloud-inventory-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.PublishFunction.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "POST" ],
+    "authLevel" : "FUNCTION"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
