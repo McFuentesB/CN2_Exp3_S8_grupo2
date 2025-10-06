@@ -1,0 +1,16 @@
+{
+  "scriptFile" : "../topic-2-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.warehouse.WarehouseFunction.getWarehouseById",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "route" : "warehouses/{id}",
+    "methods" : [ "GET" ],
+    "authLevel" : "FUNCTION"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}

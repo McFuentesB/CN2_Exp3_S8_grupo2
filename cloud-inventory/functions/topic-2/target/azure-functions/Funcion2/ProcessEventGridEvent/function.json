@@ -1,0 +1,9 @@
+{
+  "scriptFile" : "../topic-2-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.ProcessEventGridEventFunction.run",
+  "bindings" : [ {
+    "type" : "eventGridTrigger",
+    "direction" : "in",
+    "name" : "eventGridEvent"
+  } ]
+}

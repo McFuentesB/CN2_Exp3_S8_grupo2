@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "EVENTGRID_TOPIC_ENDPOINT": "https://cloud-native.eastus2-1.eventgrid.azure.net/api/events",
+    "EVENTGRID_TOPIC_KEY": "BIUxbVRIaGy65xGfaeJuUYHp8V4wBOzk2xWvbivbYt5D7eJlUqTxJQQJ99BJACHYHv6XJ3w3AAABAZEGAkF2"
+  }
+}

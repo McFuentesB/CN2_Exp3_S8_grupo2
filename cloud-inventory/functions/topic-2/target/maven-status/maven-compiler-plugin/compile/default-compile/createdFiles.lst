@@ -1,0 +1,10 @@
+com\function\ProcessEventGridEventFunction.class
+com\function\shared\Store$Edge.class
+com\function\warehouse\WarehouseFunction.class
+com\function\shared\Store$Warehouse.class
+com\function\shared\EventBus.class
+com\function\PublishFunction.class
+com\function\graphql\GraphQLFunction$1.class
+com\function\shared\Store.class
+com\function\graphql\GraphQLFunction.class
+com\function\shared\Store$Product.class
